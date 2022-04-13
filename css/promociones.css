@@ -1,0 +1,256 @@
+.promociones {
+    margin: 30px 60px 0px 120px;
+}
+
+.promociones h2,
+.promociones-cuadro h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.promociones-cuadro h2 {
+    animation-delay: 0.8s;
+}
+
+.promociones h2 {
+    margin-top: 100px;
+}
+
+.rectangle-promo {
+    width: 50px;
+    height: 5px;
+    background: var(--naranja);
+    border-radius: 30px;
+}
+
+.rectangle-promo-dos {
+    margin: auto;
+    width: 50px;
+    height: 5px;
+    background: var(--naranja);
+    border-radius: 30px;
+}
+
+.promociones p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #000000;
+    padding: 30px 0 30px 0;
+    width: 700px;
+}
+
+.img img {
+    position: relative;
+    width: 370px;
+    transform: translate(-5%, 0%);
+}
+
+.circulo {
+    position: absolute;
+    width: 450px;
+    height: 400px;
+    background-color: var(--gris);
+    padding: 100px 0 100px 0;
+    border-radius: 50% 50% 0% 0%;
+    transform: translate(-6%, 9%);
+}
+
+.promociones-cuadro {
+    border-top: solid 1px var(--naranja);
+    margin: 0%;
+    padding: 60px;
+}
+
+.promociones-cuadro .row {
+    margin-top: 60px;
+}
+
+.promociones-cuadro i {
+    font-size: 3rem;
+    color: white;
+    margin: 40px 0 20px 0;
+}
+
+.promociones-cuadro h4 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.promociones-cuadro p {
+    font-size: 1.7rem;
+    font-weight: 300;
+    margin: auto;
+    width: 90%;
+    color: white;
+}
+
+.promociones-cuadro .primera {
+    margin-left: 200px;
+}
+
+.promociones-cuadro .row {
+    background-color: var(--naranja);
+    height: 280px;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 1400px) {
+    .promociones p {
+        width: 600px;
+    }
+    .promociones-cuadro .primera {
+        margin-left: 160px;
+    }
+    .promociones-cuadro p {
+        font-size: 1.6rem;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .promociones p {
+        width: 450px;
+    }
+    .promociones-cuadro .primera {
+        margin-left: 140px;
+    }
+    .promociones-cuadro h4 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .promociones-cuadro i {
+        font-size: 2.5rem;
+        margin: 40px 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .promociones {
+        margin: 10px 60px 0px 70px;
+    }
+    .promociones p {
+        width: 350px;
+    }
+    .img img {
+        width: 300px;
+        transform: translate(-18%, 10%);
+    }
+    .circulo {
+        width: 410px;
+        height: 357px;
+        transform: translate(-20%, 9%);
+    }
+    .promociones-cuadro .primera {
+        margin-left: 105px;
+    }
+    .promociones-cuadro p {
+        font-size: 1.6rem;
+        width: 100%;
+    }
+    .promociones-cuadro .row {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .promociones {
+        margin: 5px 60px 0px 40px;
+    }
+    .promociones p {
+        width: 350px;
+    }
+    .circulo {
+        width: 350px;
+        height: 357px;
+        transform: translate(-15%, 9%);
+    }
+    .promociones-cuadro .primera {
+        margin-left: 100px;
+    }
+    .promociones-cuadro p {
+        font-size: 1.6rem;
+        width: 105%;
+    }
+    .promociones-cuadro .row {
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .promociones {
+        margin: 0px 0px 0px 80px;
+    }
+    .promociones h2 {
+        margin-top: 50px;
+    }
+    .promociones p {
+        width: 600px;
+    }
+    .circulo {
+        display: none;
+    }
+    .img img {
+        display: none;
+    }
+    .promociones-cuadro .primera {
+        margin-left: 0px;
+    }
+    .promociones-cuadro p {
+        font-size: 1.6rem;
+        width: 80%;
+    }
+    .promociones-cuadro .row {
+        height: 590px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .promociones p {
+        width: 450px;
+    }
+    .promociones-cuadro .row {
+        height: 620px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .promociones {
+        margin: 0px 0px 0px 60px;
+    }
+    .promociones p {
+        width: 400px;
+    }
+    .promociones-cuadro .row {
+        height: 680px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .promociones {
+        margin: 0px 0px 0px 40px;
+    }
+    .promociones p {
+        width: 320px;
+    }
+    .promociones-cuadro .row {
+        height: 760px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .promociones {
+        margin: 0px 0px 0px 30px;
+    }
+    .promociones p {
+        width: 260px;
+    }
+    .promociones-cuadro .row {
+        height: 1000px;
+    }
+    .promociones-cuadro h2 {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+}

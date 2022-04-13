@@ -1,0 +1,270 @@
+.servicios {
+    margin: 60px;
+}
+
+.servicios h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.servicios p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #000000;
+    margin: auto;
+    padding: 30px 0 30px 0;
+    width: 750px;
+}
+
+.servicios {
+    padding-top: 20px;
+}
+
+.servicios .row {
+    padding-bottom: 100px;
+}
+
+.servicios h3 {
+    padding-top: 60px;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--naranja);
+}
+
+.servicios p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #000000;
+    margin: auto;
+    padding: 30px 0 30px 0;
+    width: 640px;
+}
+
+.rectangle-dos {
+    width: 100px;
+    height: 5px;
+    background: var(--naranja);
+    border-radius: 30px;
+}
+
+.diseno img {
+    position: relative;
+    margin-left: 110px;
+}
+
+.diseno-circulo {
+    position: absolute;
+    background-color: var(--naranja);
+    padding: 100px 0 100px 0;
+    border-radius: 50% 50% 50% 50%;
+    width: 310px;
+    height: 310px;
+    transform: translate(110%, -10%);
+}
+
+.stickers img {
+    position: relative;
+}
+
+.stickers-circulo {
+    position: absolute;
+    background-color: var(--naranja);
+    padding: 100px 0 100px 0;
+    border-radius: 50% 50% 50% 50%;
+    width: 330px;
+    height: 330px;
+    transform: translate(3%, -20%);
+}
+
+.rotulacion img {
+    position: relative;
+    margin-left: 50px;
+}
+
+.rotulacion-circulo {
+    position: absolute;
+    background-color: var(--naranja);
+    padding: 100px 0 100px 0;
+    border-radius: 50% 50% 50% 50%;
+    width: 310px;
+    height: 310px;
+    transform: translate(120%, -11%);
+}
+
+.sublimacion img {
+    position: relative;
+    margin-right: 100px;
+}
+
+.sublimacion-circulo {
+    position: absolute;
+    background-color: var(--naranja);
+    padding: 100px 0 100px 0;
+    border-radius: 50% 50% 50% 50%;
+    width: 330px;
+    height: 330px;
+    transform: translate(5%, 6%);
+}
+
+.stickers,
+.rotulacion,
+.sublimacion {
+    padding-top: 200px;
+}
+
+@media screen and (max-width: 1400px) {
+    .servicios p {
+        width: 600px;
+    }
+    .diseno-circulo {
+        width: 250px;
+        height: 250px;
+    }
+    .stickers-circulo {
+        width: 250px;
+        height: 250px;
+    }
+    .rotulacion-circulo {
+        width: 250px;
+        height: 250px;
+    }
+    .sublimacion-circulo {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .servicios-dos p {
+        width: 500px;
+    }
+    .diseno img {
+        margin-top: 60px;
+    }
+    .stickers img {
+        margin-top: 60px;
+    }
+    .rotulacion img {
+        margin-top: 40px;
+    }
+    .diseno-circulo {
+        margin-top: 60px;
+        width: 200px;
+        height: 200px;
+    }
+    .stickers-circulo {
+        margin-top: 60px;
+        width: 200px;
+        height: 200px;
+    }
+    .rotulacion-circulo {
+        width: 200px;
+        height: 200px;
+        margin-top: 40px;
+    }
+    .sublimacion-circulo {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .servicios-dos p {
+        width: 400px;
+    }
+    .diseno-circulo {
+        transform: translate(90%, -17%);
+    }
+    .rotulacion-circulo {
+        transform: translate(90%, -17%);
+    }
+    .rotulacion p {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .servicios-dos p {
+        width: 300px;
+        margin-right: 100px;
+    }
+    .diseno-circulo,
+    .stickers-circulo,
+    .rotulacion-circulo,
+    .sublimacion-circulo {
+        display: none;
+    }
+    .rotulacion img,
+    .sublimacion img {
+        margin-top: 60px;
+    }
+    .servicios-dos {
+        padding-top: 0px;
+    }
+    .servicios-dos .row {
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .diseno img,
+    .sublimacion img,
+    .stickers img,
+    .rotulacion img {
+        display: none;
+    }
+    .servicios-dos p {
+        width: 500px;
+    }
+    .servicios-dos h3 {
+        padding-top: 0px;
+        margin-left: 50px;
+    }
+    .rectangle-dos {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .servicios p {
+        width: 350px;
+        font-size: 1.5rem;
+    }
+    .servicios-dos p {
+        width: 400px;
+    }
+    .servicios-dos h3 {
+        margin-left: 5px;
+    }
+    .rectangle-dos {
+        margin-left: 5px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .servicios p {
+        width: 250px;
+        font-size: 1.5rem;
+    }
+    .servicios-dos p {
+        width: 300px;
+    }
+    .servicios-dos h3 {
+        margin-left: 0px;
+    }
+    .rectangle-dos {
+        margin-left: 0px;
+    }
+    .servicios {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .servicios-dos p {
+        width: 280px;
+    }
+    .servicios-dos h3 {
+        margin-left: 0px;
+    }
+}

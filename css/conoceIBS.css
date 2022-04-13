@@ -1,0 +1,166 @@
+.conoce h2,
+.mision-vision h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #000000;
+}
+
+.conoce {
+    margin: 60px 0 60px 0;
+}
+
+.conoce p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #000000;
+    margin: auto;
+    padding: 30px 0 30px 0;
+    width: 750px;
+}
+
+.parrafo {
+    background-color: var(--naranja);
+}
+
+.parte1 {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 600;
+    width: 90%;
+    margin: 140px 0 0 100px;
+}
+
+.parte2 {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+    width: 90%;
+    margin: 0px 0 0 100px;
+}
+
+.seccion-dos {
+    padding: 0px;
+    background-image: url("../img/oficina.webp");
+    background-size: cover;
+    min-height: 380px;
+}
+
+.triangulo {
+    width: 0;
+    height: 0;
+    border-left: 90px solid var(--naranja);
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+    position: absolute;
+    transform: translate(-10%, 85%);
+}
+
+.mision-vision i {
+    font-size: 3rem;
+    color: var(--naranja);
+    margin: 60px 0 20px 0;
+}
+
+.mision-vision p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin: 30px 0 60px 0;
+}
+
+@media screen and (max-width: 1100px) {
+    .parte1 {
+        font-size: 3.5rem;
+        width: 80%;
+    }
+    .parte2 {
+        color: #fff;
+        font-size: 2rem;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .parte1 {
+        font-size: 3rem;
+        margin: 110px 0 0 100px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .conoce p {
+        width: 500px;
+    }
+    .parte1 {
+        font-size: 3rem;
+    }
+    .parte2 {
+        width: 60%;
+    }
+    .mision-vision-dos p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .parte1 {
+        width: 100%;
+        margin: 50px 0 0 50px;
+    }
+    .parte2 {
+        color: #fff;
+        font-size: 2rem;
+        font-weight: 400;
+        width: 80%;
+        margin: 0px 0 50px 50px;
+    }
+    .triangulo {
+        border-top: 90px solid var(--naranja);
+        border-left: 70px solid transparent;
+        border-right: 70px solid transparent;
+        transform: translate(200%, -1%);
+    }
+    .mision-vision-dos p {
+        width: 50%;
+        margin: auto;
+    }
+    .mision-vision {
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .conoce p {
+        width: 300px;
+    }
+    .triangulo {
+        transform: translate(165%, -1%);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .triangulo {
+        transform: translate(135%, -1%);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .triangulo {
+        transform: translate(100%, -1%);
+    }
+    .parte1 {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .triangulo {
+        transform: translate(65%, -1%);
+    }
+    .parte1 {
+        width: 70%;
+        margin: 30px 0 0 30px;
+    }
+    .parte2 {
+        margin: 0px 0 30px 30px;
+    }
+}

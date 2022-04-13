@@ -1,0 +1,284 @@
+.maquinaria {
+    margin: 60px;
+}
+
+.maquinaria h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.maquinaria p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #000000;
+    margin: auto;
+    padding: 30px 0 30px 0;
+    width: 750px;
+}
+
+.maquinas {
+    padding-top: 20px;
+}
+
+.maquinas .row {
+    padding-bottom: 100px;
+}
+
+.maquinas h3 {
+    padding-top: 60px;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: var(--naranja);
+}
+
+.maquinas p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: #000000;
+    padding: 30px 0 30px 0;
+    width: 640px;
+}
+
+.rectangle-dos {
+    width: 100px;
+    height: 5px;
+    background: var(--naranja);
+    border-radius: 30px;
+}
+
+.versa img {
+    position: relative;
+    width: 100%;
+}
+
+.versa-circulo {
+    position: absolute;
+    background-color: var(--naranja);
+    padding: 100px 0 100px 0;
+    border-radius: 50% 50% 50% 50%;
+    width: 310px;
+    height: 310px;
+    transform: translate(120%, -17%);
+}
+
+.aficio img {
+    position: relative;
+}
+
+.aficio-circulo {
+    position: absolute;
+    background-color: var(--naranja);
+    padding: 100px 0 100px 0;
+    border-radius: 50% 50% 50% 50%;
+    width: 330px;
+    height: 330px;
+    transform: translate(25%, -4%);
+}
+
+.cameo img {
+    position: relative;
+    width: 90%;
+}
+
+.cameo-circulo {
+    position: absolute;
+    background-color: var(--naranja);
+    padding: 100px 0 100px 0;
+    border-radius: 50% 50% 50% 50%;
+    width: 310px;
+    height: 310px;
+    transform: translate(120%, -17%);
+}
+
+.presion img {
+    position: relative;
+    width: 80%;
+}
+
+.presion-circulo {
+    position: absolute;
+    background-color: var(--naranja);
+    padding: 100px 0 100px 0;
+    border-radius: 50% 50% 50% 50%;
+    width: 330px;
+    height: 330px;
+    transform: translate(5%, 6%);
+}
+
+.aficio,
+.cameo,
+.presion {
+    padding-top: 110px;
+}
+
+@media screen and (max-width: 1400px) {
+    .maquinas p {
+        width: 600px;
+    }
+    .versa img {
+        width: 80%;
+        margin-left: 60px;
+    }
+    .versa-circulo {
+        width: 250px;
+        height: 250px;
+    }
+    .aficio-circulo {
+        width: 250px;
+        height: 250px;
+    }
+    .cameo img {
+        margin-top: 30px;
+        width: 80%;
+    }
+    .cameo-circulo {
+        margin-top: 30px;
+        width: 250px;
+        height: 250px;
+    }
+    .presion img {
+        width: 70%;
+    }
+    .presion-circulo {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .maquinas p {
+        width: 500px;
+    }
+    .versa img {
+        margin-top: 60px;
+    }
+    .versa-circulo {
+        margin-top: 60px;
+        width: 200px;
+        height: 200px;
+    }
+    .aficio-circulo {
+        width: 200px;
+        height: 200px;
+    }
+    .cameo img {
+        margin-top: 70px;
+        width: 75%;
+    }
+    .cameo-circulo {
+        margin-top: 70px;
+        width: 200px;
+        height: 200px;
+    }
+    .presion-circulo {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .maquinas p {
+        width: 400px;
+    }
+    .versa-circulo {
+        transform: translate(100%, -17%);
+    }
+    .cameo-circulo {
+        transform: translate(100%, -17%);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .maquinaria p {
+        width: 500px;
+    }
+    .maquinas p {
+        width: 300px;
+        margin-right: 100px;
+    }
+    .versa-circulo,
+    .aficio-circulo,
+    .cameo-circulo,
+    .presion-circulo {
+        display: none;
+    }
+    .aficio img,
+    .presion img {
+        margin-top: 60px;
+    }
+    .maquinas {
+        padding-top: 0px;
+    }
+    .maquinas .row {
+        padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .versa img,
+    .aficio img,
+    .cameo img,
+    .presion img {
+        display: none;
+    }
+    .maquinaria p {
+        width: 500px;
+    }
+    .maquinas p {
+        width: 500px;
+        margin-right: 40px;
+    }
+    .maquinas h3 {
+        padding-top: 5px;
+        margin-left: 60px;
+    }
+    .rectangle-dos {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .maquinaria p {
+        width: 350px;
+        font-size: 1.5rem;
+    }
+    .maquinas p {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .maquinaria p {
+        width: 250px;
+        font-size: 1.5rem;
+    }
+    .maquinas p {
+        width: 350px;
+        margin-right: 0px;
+        margin-left: 30px;
+    }
+    .maquinas h3 {
+        margin-left: 30px;
+    }
+    .rectangle-dos {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .maquinaria p {
+        width: 200px;
+    }
+    .maquinas p {
+        width: 300px;
+        margin-right: 0px;
+        margin-left: 15px;
+    }
+    .maquinas h3 {
+        margin-left: 15px;
+    }
+    .rectangle-dos {
+        margin-left: 15px;
+    }
+}
